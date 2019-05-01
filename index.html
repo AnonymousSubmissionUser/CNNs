@@ -12,4 +12,40 @@
 
 <center><img src="CNN_models.png" alt="The size participant specific CNN models created by our Convolutional Neural networks. 
     Participant 1's model contains three convolutional layers and one dense layer. 
-    The covolutional layers have a tanh activation and 16 neurons, a selu activation and 256 neuron, "></center>
+    The covolutional layers have a tanh activation and 16 neurons, a selu activation and 256 neuron, and a sigmoid activation with 256 neurons respectively.
+    The dense layer has a sigmoid activation with 128 neurons. There is a 20% dropout between the convolutional layers and the dense layer.
+    The optimizer is Adagrad, the final activation is tanh, and the loss function is mean squared error.
+    
+    Participant 2's model contains five convolutional layers and one dense layer. 
+    The convolutional layers have a selu activation and 16 neurons, a tanh activation and 256 neurons, a tanh activation and 32 neurons, 
+    a sigmoid activation with 256 neurons, and a tanh activation with 64 neurons respectively. 
+    The dense layer has a selu activation with 256 neurons. 
+    There is a 20% dropout between the convolutional layers and the dense layer. 
+    The optimizer is Adagrad, the final activation is sigmoid, and the loss function is binary cross entropy
+    
+    Participant 3's model has five convolutional layers and 1 dense layer.
+    The convolutional layers have a selu activation with 64 neurons, a selu activation with 256 neurons, a tanh activation with 8 neurons, 
+    a sigmoid activation with 8 neurons, and a relu activation with 64 neurons respectively.
+    The dense layer has a selu activation with 16 neurons. 
+    There is a 50% dropout between the convolutional layers and the dense layer.
+    The optimizer is Adagrad, the final activation is sigmoid, and the loss function is mean squared error.
+    
+    Participant 4's model has five convolutional layers and one dense layer. 
+    The convolutional layers have a relu activation with 64 neurons, a tanh activation with 256 neurons, a sigmoid activation
+    with 8 neurons, a sigmoid activation with 256 neurons, and a sigmoid activation with 64 neurons respectively.
+    The dense layer has a tanh activation with 256 neurons. 
+    There is a 40% dropout between the convolutional layers and the dense layer. 
+    The optimizer is Adagrad, the activation is sigmoid, and the loss function is binary cross entropy
+    
+    Participant 5's model has four convolutional layers and one dense layer. 
+    The convolutional layers have a selu activation with 16 neurons, a selu activation with 256 neurons, a sigmoid activation
+    with 256 neurons, and a selu activation with 8 neurons respectively.
+    The dense layer is a sigmoid activation with 256 neurons.
+    There is a 40% dropout between the convolutional layers and the dense layer.
+    The optimizer is Adagrad, the final activation is sigmoid, and the loss function is binary cross entropy
+    
+    Participant 6's model has 4 convolutional layers and no dense layer.
+    The convolution layers have a selu activation with 64 neurons, a relu activation with 128 neurons, a tanh activation 
+    with 256 neurons, and a selu activation with 64 neurons respectively.
+    There is a 40% dropout after the convolutional layers.
+    The optimizer is Adagrad, the final activation is sigmoid, and the loss function is binary cross entropy."></center>
