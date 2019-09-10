@@ -1,16 +1,15 @@
     
 <center> <h2> Personalized Convolutional Neural Networks </h2>
- <p> We used a genetic algorithm to determine the topology of our participant-specific models. 
-     The base model on which the genetic algorithm iterated is below along withthe final CNN topology and chosen parameters for each 
+ <p> We used a genetic algorithm to determine the hyper-parameters of our participant-specific CNN-based authentication models. 
+     The base model on which the genetic algorithm is run is below along with the final CNN topology and chosen parameters for each 
      participant's model: </p>
     
-<center><img src="base_CNN.png" alt="Base CNN model consisting of 5 potential Convolutional layers with a 3x2xN size 
-    where N is the number of neurons. There is a maxpool layer in between every active Convolutional layer. There is also the possibility
+<center><img src="base_CNN.png" alt="Base CNN model consisting of 5 potential Convolutional layers. There is a maxpool layer in between every active Convolutional layer. There is also the possibility
     for up to two dense layers. The final activation will lead to a single neuron"></center>  
     
-<p> The final CNN Topology and the chosen parameters in our participant-specific authentication models: </p></center>
+<p> The final hyper-parameters in our participant-specific CNN authentication models: </p></center>
 
-<center><img src="cnn_ext.png" alt="The size participant specific CNN models created by our Convolutional Neural networks. 
+<center><img src="cnn_ext.png" alt="Thw participant-specific CNN authentication models for our authentication approach.. 
     Participant 1's model contains three convolutional layers and one dense layer. 
     The covolutional layers have a tanh activation and 16 neurons, a selu activation and 256 neuron, and a sigmoid activation with 256 neurons respectively.
     The dense layer has a sigmoid activation with 128 neurons. There is a 20% dropout between the convolutional layers and the dense layer.
